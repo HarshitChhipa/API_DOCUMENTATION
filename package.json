@@ -2,7 +2,7 @@
   "name": "slateclone",
   "version": "0.0.1",
   "description": "an api documentation website",
-  "main": "index.js",
+  "main": "docs/index.js",
   "scripts": {
     "gen-index": "cpy --no-overwrite index.html --rename=index.html .",
     "postinstall": "npm run gen-index",
