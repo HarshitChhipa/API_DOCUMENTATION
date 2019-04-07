@@ -2,9 +2,9 @@
   "name": "slateclone",
   "version": "0.0.1",
   "description": "an api documentation website",
-  "main": "docs/index.js",
+  "main": "index.js",
   "scripts": {
-    "gen-index": "cpy --no-overwrite index.html --rename=index.html .",
+    "gen-index": "cpy --no-overwrite index.html.sample --rename=index.html .",
     "postinstall": "npm run gen-index",
     "start": "budo src/index.js --serve=bundle.js --live",
     "release": "standard-version",
